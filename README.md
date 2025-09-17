@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next.js Project
 
-## Getting Started
+This repository contains my work for the Web Development 2 (CPRG306) course. The project is built with Next.js to practice creating modern web applications.
 
-First, run the development server:
+OVERVIEW
+The main goal of this project is to get hands-on experience with Next.js and understand how it can be used to create fast and efficient web apps.
 
-```bash
+Some features of the project include:
+-Automatic font optimization using next/font
+-Easy deployment with Vercel
+
+GETTING STARTED
+To set up the project locally:
+# Clone this repository
+git clone https://github.com/your-username/cprg306-assignments.git
+
+# Go into the project folder
+cd cprg306-assignments
+
+# Install dependencies
+npm install
+
+# Start the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+After that, open http://localhost:3000 in your browser to see it running.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+USAGE
+The main file you’ll work with is:
+app/page.js
 
-## Learn More
+When you make changes to this file, the page will update automatically.
 
-To learn more about Next.js, take a look at the following resources:
+Other useful commands:
+# Build for production
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Run the production build
+npm start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+CONTRIBUTING
+If you’d like to contribute or suggest changes:
+-Fork the repo
+-Create a new branch
+-Commit your changes
+-Push the branch and open a pull request
 
-## Deploy on Vercel
+ACKNOWLEDGEMENTS
+Created with Next.js
+Part of CPRG306 – Web Development 2 coursework
+Thanks to the Next.js docs and tutorials for reference
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+LICENSE
+This project is licensed under the MIT LICENSE. (https://choosealicense.com/licenses/mit/#)
