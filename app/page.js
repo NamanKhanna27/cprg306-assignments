@@ -10,6 +10,7 @@ export default function RootPage() {
       <Link href="/week-5"> Go to Week 5 Page</Link>
       <Link href="/week-6"> Go to Week 6 Page</Link>
       <Link href="/week-7"> Go to Week 7 Page</Link>
+      <Link href="/week-8"> Go to Week 8 Page</Link>
     </div>
   );
 }
