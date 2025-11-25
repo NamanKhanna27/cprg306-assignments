@@ -25,7 +25,6 @@ export default function Page() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-6 bg-gray-50 text-center">
       <h1 className="text-3xl font-bold mb-4 text-black text-center">Shopping List App</h1>
-      
       {!user ? (
         <div>
           <p className="mb-4 text-gray-600">Please log in to continue.</p>

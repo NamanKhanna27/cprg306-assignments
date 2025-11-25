@@ -11,7 +11,6 @@ export default function ItemList() {
     if (sortBy === "name") {
       return a.name.localeCompare(b.name);
     } else if (sortBy === "category") {
-      // First sort by category, then by name within the same category
       if (a.category === b.category) {
         return a.name.localeCompare(b.name);
       }
